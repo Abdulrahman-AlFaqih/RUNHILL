@@ -102,6 +102,13 @@ ul{
     .home-item p{font-size: 1.09rem;}
     .home-item h2{font-size: 1.5rem;}
 }
+@media screen and (max-width: 470PX) {
+    .home-item p{font-size: 0.8rem;}
+    .home-item h2{font-size: 1.1rem;}
+}
+@media screen and (max-width: 380PX) {
+    .home-item h2{margin-top: 12PX;}
+}
 
 
 /* About */
@@ -436,6 +443,7 @@ footer{
     transition: all 0.3s;
     text-decoration: none;
 }
+
 
 
 /* Blog Page */
